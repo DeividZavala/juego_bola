@@ -13,6 +13,7 @@ public class playerController : MonoBehaviour {
 
 	//west: .5 , 2, 20.5, x:-10 east x:10
 	//north: 20.5 , .5, 2 z:10 south z-10
+	//pick up .5 en todo 
 
 
 	void Start(){
@@ -23,11 +24,24 @@ public class playerController : MonoBehaviour {
 		winText.text = "";
 	}
 
+
+//update es usado antes de renderizar cada frame
+//fixedupdate es usado antes de hacer cualquier calculo físico, nostros vamos a aplicar 
+//fuerza sobre el palyer para que se mueva asi que esto es un efecto fisico por lo que ocuparemos
+//fixedupdatev
 	void FixedUpdate(){
 
 		//primer tramo del juego
+
+		//tenemos que determinar como queremos que se comporte nuestro objeto
+		//en este caso el player
+
 		//estamos tomando los valores de movimieto del las teclas, esto ya es un metodo de unity
 
+		//sabemos que necesitamos un input, ¿pero como lo obtenemos? 
+		//con esto obtenemos los valores de desplazamiento desde las teclas
+		//pero aun tenemos que hacer que se mueva nuestro objeto rigidbody
+		//tenemos que usar un vector3 esto nos permite agregar fuerzas a nuestro objeto
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
 
