@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3D132BC6-E259-CC2A-95FD-4F1AA16E8268}") = "Juego_naves", "Assembly-CSharp.csproj", "{DC181A8C-7D57-2218-441E-4879D0078527}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC181A8C-7D57-2218-441E-4879D0078527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC181A8C-7D57-2218-441E-4879D0078527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC181A8C-7D57-2218-441E-4879D0078527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC181A8C-7D57-2218-441E-4879D0078527}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
